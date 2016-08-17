@@ -5,10 +5,19 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="container">
+   
+    <% unless flash.empty? %>
+      <script>
+      <% flash.each do |name, msg| %>
+          Materialize.toast("<%= msg %>", 4000);
+      <% end %>
+      </script>
+    <% end %>
+    <%= yield %>
+  </div>
 </body>
 </html>

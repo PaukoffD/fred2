@@ -3,7 +3,7 @@ en:
   thredded:
     recent_activity: Recent activity
     errors:
-      login_required: Зарегестрируйтесь вначале.
+      login_required: Зарегистрируйтесь вначале.
       not_authorized: You are not authorized to access this page.
       private_topic_create_denied: You are not authorized to create private topics.
       private_topic_not_found: This private topic does not exist.
