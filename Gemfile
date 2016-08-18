@@ -32,6 +32,7 @@ gem 'paperclip'
 gem 'kaminari'
 gem 'factory_girl_rails'
 gem 'materialize-sass', '~> 0.97.5'
+gem 'thredded-personalized-navigation', github: 'red56/thredded-personalized-navigation'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
