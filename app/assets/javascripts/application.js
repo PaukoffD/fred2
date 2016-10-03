@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require jquery.turbolinks
 //= require materialize-sprockets
+//= require thredded
 //= require turbolinks
 //= require_tree .
