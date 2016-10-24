@@ -50,14 +50,14 @@ en:
       edit_private_topic: :thredded.nav.edit_topic
       edit_topic: Edit
       mark_all_read: Mark All As Read
-      moderation: Moderation
-      moderation_history: History
+      moderation: Модерация
+      moderation_history: История
       moderation_pending: Pending
-      moderation_users: Users
-      moderation_activity: Activity
+      moderation_users: Юзеры
+      moderation_activity: Активность
       private_topics: Личное
-      settings: Notification Settings
-    null_user_name: Deleted user
+      settings: Уведомления
+    null_user_name: Пользователь удален
     posts:
       delete: Удалить пост
       delete_confirm: Are you sure you want to delete this post?
@@ -114,8 +114,8 @@ en:
     search:
       form:
         btn_submit: :thredded.search.form.label
-        label: Search
-        placeholder: Search Topics and Posts
+        label: Поиск
+        placeholder: Поиск тем или записей
     topics:
       delete_confirm: Are you sure you want to delete this topic? This CANNOT be undone.
       delete_topic: Delete Topic
@@ -140,7 +140,7 @@ en:
         results_message: Search Results for %{query}
       started_by_html: Started %{time_ago} by %{user}
       unfollowed_notice: You are no longer following this topic
-      updated_notice: Topic updated
+      updated_notice: Тема обновлена
     users:
       last_active_html: "Last active %{time_ago}"
       posted_in_topic_html: "Posted in %{topic_link}"

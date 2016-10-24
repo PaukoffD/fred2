@@ -1,0 +1,5 @@
+<%= simple_form_for  [@user] do |f| %>
+    <%= f.error_notification %>
+    <%= f.input :name, label: "User:", class: 'form-control' %>
+    <%= f.button :submit %>
+<% end %>

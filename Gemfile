@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'puma'
 
 gem 'devise'
-gem 'thredded'
+gem 'thredded', '~> 0.6.3'
 gem 'jquery-turbolinks'
 gem 'annotate'
 gem 'paperclip'
@@ -33,6 +33,7 @@ gem 'kaminari'
 gem 'factory_girl_rails'
 gem 'materialize-sass', '~> 0.97.5'
 gem 'thredded-personalized-navigation', github: 'red56/thredded-personalized-navigation'
+gem 'simple_form'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
